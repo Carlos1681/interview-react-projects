@@ -50,7 +50,7 @@ export default function Accordion() {
                         (<div className="content">{dataItem.answer}</div>)
                         : null} */}
                 </div>))) :
-                    (<div>Data not found!</div>)
+                    (<div>Ocorreu um erro!</div>)
                 }
             </div>
         </div>
